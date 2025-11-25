@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tom & Jerry de Terror - Inicio</title>
+  <!-- Bootstrap CSS (framework visto en clase) -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+  <style>
+    body {
+      background-color: #050509; /* casi negro */
+      color: #f8f9fa;           /* texto claro */
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #111118 !important;
+    }
+    .navbar-brand, .nav-link {
+      color: #f8f9fa !important;
+    }
+    .nav-link:hover {
+      color: #ff4b5c !important; /* rojo terror */
+    }
+    .hero {
+      padding: 80px 0;
+      text-align: center;
+      background: linear-gradient(180deg, #111118, #050509);
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #ff4b5c;
+      text-shadow: 0 0 10px #ff4b5c;
+    }
+    .card {
+      background-color: #15151f;
+      border: 1px solid #2a2a3a;
+    }
+    .card-title {
+      color: #ff4b5c;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaaaaa;
+      border-top: 1px solid #2a2a3a;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Tom & Jerry de Terror</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proceso.html">Proceso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="juego.html">Jugar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SECCIÓN HERO / PORTADA -->
+  <section class="hero">
+    <div class="container">
+      <h1>Tom & Jerry en la Cabaña Maldita</h1>
+      <p class="mt-3">
+        Una reinterpretación de Tom & Jerry en clave de terror, 
+        durante una noche de tormenta en una cabaña antigua.
+      </p>
+      <a href="juego.html" class="btn btn-outline-light mt-4">
+        Ir directo al juego
+      </a>
+    </div>
+  </section>
+
+  <!-- SECCIÓN TEMÁTICA -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card p-3">
+            <div class="card-body">
+              <h5 class="card-title">Temática del proyecto</h5>
+              <p class="card-text">
+                La aventura gráfica se desarrolla en una 
+                <strong>cabaña vieja en medio del bosque</strong>, 
+                en una noche de lluvia y trueno constante.
+              </p>
+              <p class="card-text">
+                Tom y Jerry aparecen como versiones más oscuras de sí mismos:
+                no es un dibujo animado clásico, sino una 
+                <strong>atmósfera de suspenso</strong>, 
+                luces bajas y sonidos inquietantes.
+              </p>
+              <p class="card-text">
+                El jugador debe explorar la cabaña, tomar decisiones 
+                y elegir caminos para descubrir qué está ocurriendo 
+                realmente en esa noche.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card p-3">
+            <div class="card-body">
+              <h5 class="card-title">Objetivo general</h5>
+              <p class="card-text">
+                El objetivo fue crear una experiencia interactiva 
+                sencilla que combine:
+              </p>
+              <ul>
+                <li>Personajes conocidos (Tom & Jerry).</li>
+                <li>Estética de terror y suspenso.</li>
+                <li>Decisiones del jugador que cambian la historia.</li>
+              </ul>
+              <p class="card-text">
+                La estética del sitio web acompaña esa idea, 
+                usando <strong>colores oscuros</strong> y 
+                detalles en rojo para resaltar el clima de peligro.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Trabajo Final - Programación Web · 2025
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>
